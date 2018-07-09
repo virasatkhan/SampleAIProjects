@@ -1,0 +1,26 @@
+
+Workflow :
+1. Extracting Reviews from particular restaurant
+2. Checking if it exists in MYSQL Database or not
+3. Classifying the review text
+4. Storing into MYSQL Db
+5. If rating<=3 or (review_text is negative and rating<=4) send mail to restaurant
+
+
+Classifying the review text:
+
+This classification system has been built over the 2,00,000 amazon food reviews from amazon website
+In this system we have tagged data of positive and negative review given by amazon customers
+We build a model which will classify into positive and negative sentiment
+model : model is using unigram, bigram, trigram words for modeling and then doing features selection
+choosing 5000 words from unigram, 1000 words from bigram and 500 words from trigram
+testing four model Randomforest, logistic regression, bernouli, and perceptron.
+Chosen randomforest for its high accuracy
+
+
+How to run the code :
+
+First change mail id and password of sender in line 6 and 17 of mail_building.py
+and mail id of receiver in the line 7 of mail_building.py
+then run mysql_1.py
+if you have already created the database and table the hashed the lines of its creation

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+
+
+<category>
+<pattern>over billing</pattern>
+<template>
+I am sorry for your problem, can you please share the details
+</template>
+</category>
+
+<category>
+<pattern>billing *</pattern>
+<template>
+I am sorry for your problem, can you please share the details
+</template>
+</category>
+
+<category>
+<pattern>details *</pattern>
+<template>
+Thanks for sharing the details, Our customer executive will contact you
+</template>
+</category>
+
+<category>
+<pattern>* details *</pattern>
+<template>
+Thanks for sharing the details, Our customer executive will contact you
+</template>
+</category>
+
+<category>
+<pattern>* wifi *</pattern>
+<template>
+We are working on wifi, We will serve you asap.
+</template>
+</category>
+
+<category>
+<pattern>wifi *</pattern>
+<template>
+We are working on wifi, We will serve you asap.
+</template>
+</category>
+
+<category>
+<pattern>bills * given *</pattern>
+<template>
+We are working on the problem of bill not given, We will provide you soon.
+</template>
+</category>
+
+<category>
+<pattern>* rude behaviour *</pattern>
+<template>
+We are very sorry, We will make sure it does not happend in future. We will take strict actions against it.
+</template>
+</category>
+
+<category>
+<pattern>* quality *</pattern>
+<template>
+we are very sorry, We will make sure it does not happend in future. We will take strict actions against it.
+</template>
+</category>
+
+<category>
+<pattern>A * LOT ABOUT YOU *</pattern>
+<template>
+I wonder if I know this
+</template>
+</category>
+
+</aiml>

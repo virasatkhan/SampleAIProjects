@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+
+<category>
+<pattern>i am looking for coffee </pattern>
+<template>
+ok, Can you let me know which one do you like?
+</template>
+</category>
+
+<category>
+<pattern>* order *</pattern>
+<template>
+Ok here are your list of orders :
+</template>
+</category>
+
+
+
+</aiml>
